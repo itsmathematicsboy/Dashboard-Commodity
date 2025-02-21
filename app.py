@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load dataset
-df = pd.read_csv('/content/precious_metals_futures.csv')
+df = pd.read_csv('precious_metals_futures.csv')
 
 # Convert date column to datetime
 df['date'] = pd.to_datetime(df['date'])
